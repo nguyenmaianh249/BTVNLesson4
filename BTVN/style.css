@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header {
+    margin: 10px 5px 10px 20px;
+}
+
+#header>ul>li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#header>ul>li>div>ul>li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#header>ul>li>img {
+    margin-bottom: -5px;
+}
+
+#solieu {
+    border: 1px solid green;
+    border-radius: 12px;
+    margin: 0px 30px 10px 30px;
+}
+
+#solieu>ul>li {
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+#thongke {
+    background-color: green;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+#socanhiem,
+#socabinhphuc {
+    margin-left: -20px;
+}
+
+#socanhiem {
+    color: red;
+}
+
+#socabinhphuc {
+    color: green;
+}
+
+#header>ul>li>ul>li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#logosearch {
+    margin-left: 0px;
+}
+
+#danhmuc ul {
+    margin: 0px;
+    border: 1px solid green;
+    background-color: green;
+    list-style-type: none;
+}
+
+#danhmuc li {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 12px;
+}
+
+#danhmuc li:hover {
+    background-color: #28b971;
+}
+
+#danhmuc a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#border {
+    margin: 0px;
+    width: auto;
+    height: 100px;
+    background-color: gainsboro;
+}
+
+#webcontent {
+    margin: 20px;
+}
+
+#webcontent h2,
+#webcontent p {
+    width: 600px;
+}
+
+#webcontent h2 {
+    font-size: 20px;
+}
+
+#webcontent p {
+    font-size: 16px;
+}
+
+#thongtinlienquan a {
+    font-size: 14px;
+    font-weight: bold;
+    list-style-type: circle;
+    text-decoration: none;
+    color: black;
+}
+
+#thongtinlienquan li {
+    margin-left: 30px;
+}
+
+#dongkengang {
+    border: 1px solid blue;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: -275px;
+}
+
+#tintucsukien {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#tintuclienquan li {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+#tintuclienquan a {
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+    width: 80px;
+    text-decoration: none;
+}
+
+#thongtinlienquan a:hover,
+#tintuclienquan a:hover {
+    color: blue;
+}
+
+#anhquangcao {
+    margin-left: -250px;
+    width: 300px;
+    height: 500px;
+}
